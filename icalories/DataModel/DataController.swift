@@ -16,7 +16,7 @@ class DataController: ObservableObject {
     func save(context: NSManagedObjectContext) {
         do {
             try context.save()
-            print("Data saved!!!")
+            print("Data saved!!")
         } catch {
             print("We could not save the data...")
         }
